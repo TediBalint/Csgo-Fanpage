@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <script src="Script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Játékmenet</title>
+</head>
+<body>
+    <div>
+        <div id="Menu">
+            <ul>
+                <li><a href="Index.html">Történelme</a></li>
+                <li><a href="jatek.html">Játékmenet</a></li>
+                <li><a href="palyak.html">Pályák</a></li>
+                <li><a href="Esport.html">Esport</a></li>
+
+            </ul>
+        </div>
+        <div id="content" class="anyu">
+            <h1>A tervek</h1>
+            <p>A fejlesztők megpróbálták pontosan annyira élethűre alakítani a játékmenetet, hogy az még ne menjen a játszhatóság rovására. Például nincsenek elsősegélycsomagok, viszont ahhoz, hogy valaki meghaljon, még a legerősebb fegyverből a legrosszabb esetben is két találat szükséges
+                (limbshot esetén). Az élethűség a fegyverek kialakításában is alapvető szempont volt, a játékban található modellek egytől egyig megtalálhatók a valós életben is. A fegyverek alapvetően két csoportra vannak osztva: a <b>pisztolyokra</b>(secondary) és a <b>vállfegyverekre</b>(primary). A vállfegyver lehet géppisztoly, sörétes puska vagy <b>karabély</b>, azon belül gépkarabély, félautomata vagy <i>forgó-toló záras mesterlövészpuska.</i><img src="ssg.jpg" alt="fegyó" id="ssg"> <br>
+                Mindkét típusból egyet-egyet vihetünk magunkkal induláskor, melyeket vásárlással szerezhetünk meg. Minden kill ($300) és megnyert kör után pénzt kap a játékos – a győztes csapat tagjai természetesen többet. Túszok illetve csapattársak sebzéséért, megöléséért pénzmegvonás jár. <br>
+                A játékot két csapat játssza, a terroristák (Terrorists, röviden T) és a terrorista-elhárító alakulat (Counter-Terrorists, röviden CT). A játék körökre van osztva, minden kör elején mindkét csapat teljes létszámmal indul. A kezdő területen van lehetőség arra, hogy a csapattagok fegyvert, páncélt és egyéb kiegészítőket (gránátok stb.) vegyenek, majd indul a kör, melyben mindkét csapatnak egy adott feladatot kell végrehajtania.<br>
+                A második képen egy CS 1.6- hoz tartozó map pack (pályakészlet) látható </p>
+                <h3>Pályák típusai (erről bővebben<a href="palyak.html"> itt</a>) /játékmódok</h3>
+                <ul>
+                    <li>Counter-Strke <a href="#cs">(CS)</a></li><!--hook?--> <img src="mappakk.jpg" alt="map" id="feherkep">
+                    <li>Demolition <a href="#de">(DE)</a></li>
+                    <li>Escape <a href="#es">(ES)</a></li>
+                    <li>Assassination <a href="#as">(AS)</a></li>
+                    <li>Fighting Yard <a href="#fy">(FY)</a></li>
+                </ul>
+                <div id="melle">
+                <h3 id="spec">Speciális <a href="#custom">(custom)</a> játékmódok:</h3> 
+                <ul>
+                    <li>AIM</li>
+                    <li>GG</li>
+                    <li>KZ</li>
+                    <li>ZM</li>
+                    <li>Surf</li>
+                </ul>
+                </div>
+                <h3 id="cs">Counter-Strike</h3>
+                <p>A <b>CS</b> típusú pályákon a terrorelhárítók feladata a terroristák fogságában lévő túszok megkeresése, és a kezdőpontjukra történő kimentése. A terroristáknak természetesen ezt kell megakadályozni, tehát itt gyakorlatilag az elhárítók támadnak, a terroristák védenek.</p>
+                <h3 id="de">Demolition</h3>
+                <p>A <b>DE</b> típusú pályákon két célpont van. A terroristák feladata felrobbantani ezek közül az egyiket. A két célpont között tetszőlegesen választhatnak. Az egyik terroristánál van a bomba, ezt a hátán lévő hátizsák jelzi. Ezt a célponthoz eljutva élesítenie kell (alapjáraton 5-ös gomb, és tűz gomb nyomva tartása), és szervertől függően 35-45 másodpercen belül robban a bomba (de ez lehet kevesebb vagy több is). A terrorelhárítóknak ezzel szemben a bomba lerakását kell megakadályozniuk. Ha a terroristáknak mégis sikerül beélesíteniük a bombát, akkor a hatástalanítást kell elvégezni. Ez bombahatástalanító készlet (defusal kit) nélkül 10, defuse kittel 5 másodpercig tart, a use gombot kell lenyomva tartani a bombára nézve. Eközben mozogni, ugrani nem tudunk.</p>
+                <h3 id="es">Escape</h3>
+                <p>Az <b>ES</b> típusú pályák szinte teljesen eltűntek. A feladat a következő: a terroristáknak el kell menekülni egy vagy két kijutási ponton, az elhárítóknak ezt kell megakadályozni. Ha az összes terrorista meghal, vagy nem szabadulnak ki a rendelkezésre álló idő alatt, a kört az elhárítók nyerik. Ezeken a pályákon limitálva van a vásárlás.</p>
+                <h3 id="as">Assassination</h3>
+                <p>Az <b>AS</b> típusú pályák már kihalófélben vannak. A feladat nagyon egyszerűen hangzik: egy VIP személyt kell eljuttatni a pálya egyik végétől a másikig. A VIP-t mindig az egyik elhárító játssza, ő vásárolni nem képes, csak az alap pisztolyt használhatja. Ha lelövik, a kört az elhárítók elvesztették.</p>
+                <h3 id="fy">Fighting Yard</h3>
+                <p>A <b>FY</b> típusú pályáknak nincs tényleges konkrét feladattartalmuk, egyszerűen csak le kell lőni az ellenség összes játékosát. Ezek többnyire szórakozásra készített „fun” pályák változatos nehezítésekkel, az ún. funserverek futtatják őket.(Pl. fy_pool,fy_snow). Például egy adott fegyver nevével (pl. AWP) kezdődő nevű pályákon csak azt a fegyvert lehet használni, a 35 hp pályákon 35 életerővel, általában késsel, ritkábban pisztollyal (de csak 1 lövéssel) lehet játszani.</p>
+                <h3 id="custom">Játékos által készített (custom) játékok</h3>
+                <p>A <b>"listen"</b> szerverek ugyanabban a folyamatban futnak, mint a játékkliensek.  <img src="serverroom.jpg" alt="szerverek">Egyébként dedikált szerverként működnek, de jellemzően az a hátrányuk, hogy távoli játékosokkal kell kommunikálniuk a fogadó lejátszó lakossági internetkapcsolatán keresztül. A teljesítményt csökkenti, hogy a szervert futtató gép egy kimeneti képet is generál. A figyelőszervereknek azonban megvan az az előnyük, hogy <i>alapvetően ingyenesek</i>, és nem igényelnek semmilyen speciális infrastruktúrát vagy előre tervezést, ami általánossá teszi őket a LAN-partikon. A CS:GO lehetőséget kínál egyéni játékok indítására, készíthető botokkal vagy anélkül.
+                </p>
+                
+        </div>
+    </div>
+</body>

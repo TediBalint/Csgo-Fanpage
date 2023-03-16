@@ -1,0 +1,380 @@
+html
+{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar
+{
+    display: none;
+}
+body
+{ 
+    background-image: url("MenuBackground.png");
+    margin: 0; 
+    overflow: auto; 
+    height: 100vh; 
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+}
+
+body :not(h1,h2,h3,a, #sotetbetu)
+{
+    font-family: 'Roboto-Black', sans-serif;
+    color: white;
+}
+h2
+{
+    font-size: 200%;
+    font-weight: 600;
+    text-decoration: underline;
+}
+h3
+{
+    font-size: 150%;
+}
+@font-face
+{
+    font-family: "CSGO";
+    src: url('cs_regular.ttf')
+}
+
+
+h1, h2, h3, #Menu ul li a
+{
+    color: white; 
+    margin: 0; 
+    font-family: CSGO;
+    /*text-decoration: underline; nemtom ezzel mi legyen*/
+}
+#alja ul
+{
+    margin-top: 50px;
+}
+#alja ul li
+{
+    font-size: 150%;
+    margin:auto;
+    width: 800px;
+}
+#content_Big
+{
+    position: relative;
+    font-size: 140%;
+    width: 85%;
+    float: right;
+    text-align: justify;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 5px;
+}
+#Big_h1 
+{
+    font-size: 7vw; 
+    padding: 3vh 0 0 45vw;
+}
+#Big_h2
+{
+    text-align: center;
+    font-size: 5.5vw;
+    
+}
+#Big_h3 
+{
+    font-size: 3vw;
+    padding: 7vw 35vw;
+}
+
+#Menu ul li a
+{
+
+    color: white;
+    font-size: 2vw;
+    text-decoration: none;
+    line-height: 22.5vh;
+    white-space: normal;
+    
+}
+#Menu ul
+{
+    list-style: none;
+    padding-left: 2%;
+}
+#Menu ul li a:hover
+{
+    color: crimson;
+}
+#Menu 
+{
+    background-image: none;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    position: fixed;
+    margin: 0; padding: 0; width: 25vh;  height: 100vh; 
+    overflow: auto; 
+    /*legyen, vagy ne?*/ 
+    opacity: 0.5;
+    z-index: 1;
+}
+#content
+{
+    position: relative;
+    font-size: 112%;
+    width: 85%;
+    float: right;
+    text-align: justify;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+}
+#content_Img_Right
+{
+    margin-top: 10px;
+    position: relative;
+    font-size: 140%;
+    width: 45%;
+    height: 45vh;
+    float: right;
+    text-align: justify;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 5px;
+}
+#imgpalyak
+{
+    margin: 5px 20px;
+    float:right;
+    width: 20vw;
+    height: 20vh;
+    border: none;
+}
+#imgtortenet
+{
+    margin: 3px 3px 3px 10px;
+    border: 0.7 solid black;
+    width:18vw;
+    height: 32vh;
+}
+#operation_riptide
+{
+    margin: 3px 3px 3px 10px;
+    border: 0.7 solid black;
+    width: 30vw;
+    height: 32vh;
+}
+#imgesport
+{
+
+    float: right;
+    margin: 3px 10px 3px 5px;
+    width: 25vw;
+    border: black 0.7px solid;
+}
+img 
+{
+    float: right;
+    margin: 5px 10px;
+    width: 30vw;
+    border: black 0.7px solid;
+}
+/*#ssg
+{
+    width: 1658px;
+    border: black 1px solid;
+    
+}*/
+
+
+b{
+    font-weight: 900;
+    color: darkred;
+}
+a:visited{
+    color: darkred;
+    text-decoration: none;
+}
+a{
+    color: crimson;
+    text-decoration: none;
+}
+a:hover
+{
+    cursor: grab;  
+}
+p{
+    padding-left: 10px;
+}
+#spec{
+    width: 50%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+#melle{
+    margin-bottom: 35px;
+}
+#tablazat_div
+{
+    width: 100vw;
+    margin: auto;
+}
+#tablazat_div table
+{
+    width: 55vw;
+    float: left;
+    border: 5px gray solid;
+    border-collapse: collapse;
+    margin-left: 0.5vw;
+}
+#tablazat_div table thead th
+{
+    height: 6vh;
+    border: 2px darkgray solid;
+    text-align: center;
+}
+#tablazat_div table tr td
+{
+    text-align: center;
+    border: 2px gray solid;
+    height: 4vh;
+}
+#verseny
+{
+    width: 11vw;
+}
+#datum
+{
+    width: 9vw;
+}
+#rowspan_sok
+{
+    font-size: 2vw;
+}
+#Ence
+{
+    color: rgb(255, 235, 225);
+}
+#teteje 
+{ 
+    background-image: url(hatter.jpg); 
+    background-repeat: no-repeat; 
+    background-size:150%;
+    height: 100%;
+    margin: 0; 
+    padding: 0;
+    font-family: 'Roboto-Black', sans-serif; 
+}
+
+#alja 
+{   
+    background-image: url(hatter2.jpg); 
+    height: 100% ; 
+    background-repeat: no-repeat; 
+    background-size:100%; 
+    display: block; 
+    overflow: hidden;
+    font-family: 'Roboto-Black', sans-serif;
+}
+#gomb 
+{
+    position: absolute; right: 0.7%; bottom: 1%;
+    width: 4%;
+    height: 8%;
+}
+hr
+{
+    width: 1.5vw;
+}
+#imgesport
+{
+    float: right;
+    margin: 5px 10px;
+    width: 27vw;
+    border: black 0.7px solid;
+}
+ul{
+    list-style-type: square;
+
+}
+#sotetbetu{
+    color: darkred;
+} 
+#de{
+    text-align: justify;
+    margin-top: 0;
+}
+/*Ha telón van (Iphone nem teló hanem egy szar)*/
+@media only screen and (max-width: 768px) 
+{
+img
+{
+    width: 95%;
+}
+body
+{
+    background-color: black;
+}
+#content
+{
+    padding-left: 0px;
+    margin-right: auto;
+    font-size: 75%;
+    width: 98%;
+    height: 100%;
+    text-align: justify;
+    float: none;
+    padding-top: 100px;
+}
+#Menu ul li a
+{
+
+    color: white;
+    font-size: 5vw;
+    line-height: 2vh;
+    text-decoration: none;
+    white-space: none;
+    list-style-type: block;
+    
+}
+#Menu ul
+{
+    list-style: block;
+    padding-left: 1%;
+}
+#Menu ul li a:hover
+{
+    color: crimson;
+}
+#Menu 
+{
+    background-image: none;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    position: absolute;
+    width: 100%;  height: 20vh; 
+    overflow: auto; 
+    opacity: 0.6;
+    margin: 0 0 auto 0;
+    
+}
+#imgesport
+{
+    float: right;
+    margin: 5px 10px;
+    width: 100%;
+    height: 100%;
+    border: black 0.7px solid;
+}
+#tablazat_div table
+{
+    display: none;
+}
+#imgtortenet
+{
+    margin-left: 10px;
+    border: 0.7 solid black;
+    width:95%;
+    height:95%;
+}
+}
+
+
+  
+
